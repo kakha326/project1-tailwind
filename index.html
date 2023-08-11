@@ -6,21 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/1a418111b4.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header class="relative container mx-auto">
-<nav class="flex item-center justify-between mx-2">
-    <a href="#">Home</a>
-    <a href="#">Product</a>
-    <a href="#">Categories</a>
-    <a href="#">SALE</a>
-</nav>
+    <div class="container mx-auto max-w-screen-xl">
+        <header class="flex items-center justify-between text-center py-4">
+            <i class="fa-solid fa-bars hidden"></i>
+            <nav class="w-1/3 ">
+                <ul class="flex items-center justify-between text-sm text-black font-sans		">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">SALE</a></li>
+                </ul>
+            </nav>
+            <div>
+                <a href="index.html"><img src="img/logo.svg" alt=""></a>
+            </div>
+            <div class="flex w-3/12 justify-around text-center items-center">
+                <button
+                    class=" flex justify-around items-center rounded-xl border-none bg-mainBgColor w-44 text-sm px-1 py-2">
+                    Search
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <a href="#"><i class="fa-solid fa-bag-shopping text-lg"></i></a>
+                <a href="#"><i class="fa-regular fa-user text-lg"></i></a>
+            </div>
 
-    </header>
+
+        </header>
+    </div>
+
 
 </body>
 
