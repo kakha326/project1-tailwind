@@ -21,23 +21,35 @@
             </div>
             <nav class="w-1/3 ">
                 <ul class="flex items-center justify-between text-sm text-black font-sans		">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">Categories</a></li>
-                    <li><a href="#">SALE</a></li>
+                    <li class="relative cursor-pointer transition-all duration-500 before:content-[''] 
+                    before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-1 before:rounded-full
+                     before:hover:bg-indigo-300 before:opacity-0 before:transition-all before:duration-500 
+                     hover:before:w-full hover:before:opacity-100"><a href="index.html">Home</a></li>
+                    <li class="relative cursor-pointer transition-all duration-500 before:content-[''] 
+                    before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-1 before:rounded-full
+                     before:hover:bg-indigo-300 before:opacity-0 before:transition-all before:duration-500 
+                     hover:before:w-full hover:before:opacity-100"><a href="#">Product</a></li>
+                    <li class="relative cursor-pointer transition-all duration-500 before:content-[''] 
+                    before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-1 before:rounded-full
+                     before:hover:bg-indigo-300 before:opacity-0 before:transition-all before:duration-500 
+                     hover:before:w-full hover:before:opacity-100"><a href="#">Categories</a></li>
+                    <li class="relative cursor-pointer transition-all duration-500 before:content-[''] 
+                    before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-1 before:rounded-full
+                     before:hover:bg-indigo-300 before:opacity-0 before:transition-all before:duration-500 
+                     hover:before:w-full hover:before:opacity-100"><a href="#">SALE</a></li>
                 </ul>
             </nav>
-            <div>
-                <a href="index.html"><img src="img/logo.svg" alt=""></a>
+            <div class="hover:scale-125">
+                <a href="index.html"><img  src="img/logo.svg" alt="#"></a>
             </div>
             <div class="flex w-3/12 justify-around text-center items-center">
                 <button
-                    class=" flex justify-around items-center rounded-xl border-none bg-mainBgColor w-44 text-sm px-1 py-2">
+                    class=" flex justify-around items-center rounded-xl border-none bg-mainBgColor w-44 text-sm px-1 py-2 hover:drop-shadow-xl">
                     Search
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
-                <a href="#"><i class="fa-solid fa-bag-shopping text-lg"></i></a>
-                <a href="#"><i class="fa-regular fa-user text-lg"></i></a>
+                <a href="#"><i class="fa-solid fa-bag-shopping text-lg hover:scale-125"></i></a>
+                <a href="#"><i class="fa-regular fa-user text-lg hover:scale-125"></i></a>
             </div>
         </header>
         <!-- section1 -->
@@ -62,28 +74,31 @@
         <section>
             <h1 class="text-5xl	 text-center my-12">Season Collections</h1>
             <div class="w-11/12 flex justify-between mx-auto">
-                <div class="flex flex-col text-center">
-                    <img src="img/img 5.png" alt="">
+                <div class="flex flex-col text-center ">
+                    <img class="hover:scale-95 cursor-pointer" src="img/img 5.png" alt="">
                     <p class="text-3xl mt-6	">SPRING</p>
                     <div>
-                        <button class="text-xl bg-mainBgColor px-8 py-2 border-none rounded-2xl	mt-8">
+                        <button class="text-xl bg-mainBgColor px-8 py-2 border-none rounded-2xl	mt-8
+                        transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-300 duration-300 ">
                             MORE</button>
                     </div>
 
                 </div>
                 <div class=" flex flex-col text-center">
-                    <img src="img/img 6.png" alt="">
+                    <img class="hover:scale-95 cursor-pointer" src="img/img 6.png" alt="">
                     <p class="text-3xl mt-6	">SUMMER</p>
                     <div>
-                        <button class="text-xl bg-mainBgColor px-8 py-2 border-none rounded-2xl	mt-8">
+                        <button class="text-xl bg-mainBgColor px-8 py-2 border-none rounded-2xl	mt-8
+                        transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-300  duration-300">
                             MORE</button>
                     </div>
                 </div>
                 <div class="flex flex-col text-center">
-                    <img src="img/img 7.png" alt="">
+                    <img class="hover:scale-95 cursor-pointer" src="img/img 7.png" alt="">
                     <p class="text-3xl mt-6	">WINTER</p>
                     <div>
-                        <button class="text-xl bg-mainBgColor px-8 py-2 border-none rounded-2xl	mt-8">
+                        <button class="text-xl bg-mainBgColor px-8 py-2 border-none rounded-2xl	mt-8 
+                        transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-300 duration-300">
                             MORE</button>
                     </div>
                 </div>
@@ -95,17 +110,17 @@
             <h2 class="text-5xl	 text-center my-12">Our Best Seller</h2>
             <div class="w-11/12 flex justify-between mx-auto">
                 <div class="text-center">
-                    <img src="img/img8.png" alt="">
+                    <img class="hover:scale-95 cursor-pointer" src="img/img8.png" alt="">
                     <p class="text-base mt-6">Euphoria Crop Blouse</p>
                     <p class="text-sm">Rp. 125.000</p>
                 </div>
                 <div class="text-center">
-                    <img src="img/img 9.png" alt="">
+                    <img class="hover:scale-95 cursor-pointer" src="img/img 9.png" alt="">
                     <p class="text-base mt-6">Venus Halter Dress</p>
                     <p class="text-sm">Rp. 180.000</p>
                 </div>
                 <div class="text-center">
-                    <img src="img/img 10.png" alt="">
+                    <img class="hover:scale-95 cursor-pointer" src="img/img 10.png" alt="">
                     <p class="text-base mt-6">Snap Pure Blouse</p>
                     <p class="text-sm">Rp. 129.000</p>
                 </div>
@@ -122,11 +137,15 @@
                     <h2 class="text-5xl">Get 50% Off</h2>
                     <h3 class="text-base mt-4 my-6">for all new product purchases
                         min. purchase Rp. 350.000</h3>
-                        <button class="text-xl px-8 py-3 bg-white rounded-3xl">SHOP NOW</button>
+                        <button class="text-xl px-8 py-3 rounded-3xl transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-indigo-300 duration-300">SHOP NOW</button>
 
                     </div>
                 </div>
 
+        </section>
+        <!-- section 5 -->
+        <section>
+            <h2 class="text-5xl	 text-center my-12">Our Products</h2>
         </section>
     </div>
 </body>
