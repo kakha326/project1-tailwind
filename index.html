@@ -15,11 +15,11 @@
 <body>
     <div class="container mx-auto max-w-screen-xl w-full">
         <!-- header -->
-        <header class="flex items-center justify-between mx-auto text-center py-4">
-            <div class="flex xl1:hidden">
-                <i class="text-lg fa-solid fa-bars"></i>
+        <header class="flex items-center justify-around mx-auto text-center py-4 lg:justify-between">
+            <div class="flex lg:hidden">
+                <i class=" text-xl fa-solid fa-bars"></i>
             </div>
-            <nav class="w-1/3 sm:hidden">
+            <nav class="w-1/3 hidden lg:block   ">
                 <ul class="flex items-center justify-between text-sm text-black font-sans		">
                     <li class="relative cursor-pointer transition-all duration-500 before:content-[''] 
                     before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-1 before:rounded-full
@@ -42,14 +42,21 @@
             <div class="hover:scale-125">
                 <a href="index.html"><img src="img/logo.svg" alt="#"></a>
             </div>
-            <div class="flex w-3/12 justify-around text-center items-center">
-                <button class=" flex justify-around items-center rounded-xl border-none
-                     bg-mainBgColor w-44 text-sm px-1 py-2 hover:drop-shadow-xl focus:bg-white cursor-text	">
+            <div class="flex gap-8 justify-between text-center items-center lg:justify-around lg:w-3/12">
+                <button class="justify-around items-center rounded-xl border-none
+                     bg-mainBgColor w-44 text-sm px-1 py-2 hover:drop-shadow-xl
+                      focus:bg-white cursor-text hidden lg:flex	">
                     Search
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-magnifying-glass hidden"></i>
                 </button>
+                <div class="flex lg:hidden">
+                    <i class="fa-solid fa-magnifying-glass "></i>
+                </div>
+
                 <a href="#"><i class="fa-solid fa-bag-shopping text-lg hover:scale-125"></i></a>
                 <a href="#"><i class="fa-regular fa-user text-lg hover:scale-125"></i></a>
+
+
             </div>
         </header>
         <!-- section1 -->
@@ -57,12 +64,13 @@
             <div class="px-14 relative flex justify-between items-center text-center">
                 <img class="m-auto" src="img/Group 1.png" alt="">
                 <div
-                    class="w-3/12 flex absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2	items-center justify-center">
+                    class="w-2/12 flex absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 items-center justify-center lg:w-3/12">
                     <div class="text-center">
-                        <h2 class="text-5xl">MEJIWOO</h2>
-                        <h3 class="text-3xl	">미지우</h3>
-                        <img class="my-6" src="img/Vector 2.png" alt="">
-                        <p class="text-base w-64 text-center">make your everyday look prettier
+                        <h2 class="md:text-2xl lg:text-5xl">MEJIWOO</h2>
+                        <h3 class="md:text-xl  lg:text-3xl	">미지우</h3>
+                        <img class="my-6 w-8/12 mx-auto hidden md:block lg:w-full" src="img/Vector 2.png" alt="">
+                        <p class="w-64 text-center hidden md:block  text-xs lg:text-base">make your everyday look
+                            prettier
                             with MEJIWOO Korean Made</p>
                     </div>
                 </div>
@@ -72,36 +80,36 @@
         </section>
         <!-- section2 -->
         <section>
-            <h1 class="text-5xl	 text-center my-12">Season Collections</h1>
-            <div class="w-11/12 flex justify-between mx-auto">
+            <h1 class="text-4xl lg:text-5xl	 text-center my-12">Season Collections</h1>
+            <div class="w-11/12 flex gap-8 lg:gap-12 mx-auto">
                 <div class="flex flex-col text-center ">
                     <img class="hover:scale-95 cursor-pointer" src="img/img 5.png" alt="">
-                    <p class="text-3xl mt-6	">SPRING</p>
+                    <p class="text-xl mt-4 lg:mt-6 lg:text-3xl">SPRING</p>
                     <div>
-                        <button
-                            class="text-xl bg-mainBgColor px-8 py-2 border-none rounded-2xl	mt-8
-                        transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-300 duration-300 ">
+                        <button class=" bg-mainBgColor px-8 py-2 border-none rounded-2xl
+                        transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110
+                         hover:bg-indigo-300 duration-300 text-base mt-4 lg:mt-8 lg:text-xl">
                             MORE</button>
                     </div>
 
                 </div>
                 <div class=" flex flex-col text-center">
                     <img class="hover:scale-95 cursor-pointer" src="img/img 6.png" alt="">
-                    <p class="text-3xl mt-6	">SUMMER</p>
+                    <p class="text-xl mt-4 lg:mt-6 lg:text-3xl">SUMMER</p>
                     <div>
                         <button
-                            class="text-xl bg-mainBgColor px-8 py-2 border-none rounded-2xl	mt-8
-                        transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-300  duration-300">
+                            class=" bg-mainBgColor px-8 py-2 border-none rounded-2xl
+                        transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-300  duration-300 text-base mt-4 lg:mt-8 lg:text-xl">
                             MORE</button>
                     </div>
                 </div>
                 <div class="flex flex-col text-center">
                     <img class="hover:scale-95 cursor-pointer" src="img/img 7.png" alt="">
-                    <p class="text-3xl mt-6	">WINTER</p>
+                    <p class="text-xl mt-4 lg:mt-6lg:text-3xl">WINTER</p>
                     <div>
                         <button
-                            class="text-xl bg-mainBgColor px-8 py-2 border-none rounded-2xl	mt-8 
-                        transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-300 duration-300">
+                            class=" bg-mainBgColor px-8 py-2 border-none rounded-2xl
+                        transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-300 duration-300 text-base mt-4 lg:mt-8 lg:text-xl">
                             MORE</button>
                     </div>
                 </div>
@@ -110,8 +118,8 @@
         </section>
         <!-- section3 -->
         <section class="mb-14">
-            <h2 class="text-5xl	 text-center my-12">Our Best Seller</h2>
-            <div class="w-11/12 flex justify-between mx-auto">
+            <h2 class="text-4xl lg:text-5xl text-center my-12">Our Best Seller</h2>
+            <div class="w-11/12 flex gap-8 lg:gap-12 mx-auto">
                 <div class="text-center">
                     <img class="hover:scale-95 cursor-pointer" src="img/img8.png" alt="">
                     <p class="text-base mt-6">Euphoria Crop Blouse</p>
@@ -302,10 +310,10 @@
                                 value="SIGN UP">
                         </div>
                     </form>
-                    <div class="flex gap-2 my-6 w-full">
-                        <img src="img/Line L.svg" alt="">
-                        <p>OR</p>
-                        <img src="img/Line R.svg" alt="">
+                    <div class="flex justify-center items-center gap-2 my-6 w-full overflow-hidden">
+                        <hr class="w-4/12 h-px bg-black border-0 ">
+                        <span>OR</span>
+                        <hr class="w-4/12 h-px bg-black border-0 ">
                     </div>
                     <button
                         class="bg-white hover:bg-zinc-500 flex items-center justify-center py-3 px-4 gap-2 w-8/12 rounded-2xl mb-8 m-auto">
@@ -319,8 +327,8 @@
             </div>
 
         </section>
-        <footer >
-            <div class="flex justify-around items-top pt-11 w-9/12"> 
+        <footer>
+            <div class="flex justify-around items-top pt-11 w-9/12">
                 <img src="img/logomain.svg" alt="">
                 <nav>
                     <ul class="cursor-pointer">
