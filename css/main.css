@@ -868,6 +868,10 @@ video {
   align-items: center;
 }
 
+.items-baseline {
+  align-items: baseline;
+}
+
 .justify-end {
   justify-content: flex-end;
 }
@@ -1324,6 +1328,10 @@ video {
 
   .md\:flex {
     display: flex;
+  }
+
+  .md\:w-9\/12 {
+    width: 75%;
   }
 
   .md\:flex-row {
