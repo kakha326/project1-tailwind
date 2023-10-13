@@ -624,6 +624,10 @@ video {
   margin-bottom: 2rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .mb-14 {
   margin-bottom: 3.5rem;
 }
@@ -658,18 +662,6 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
 }
 
 .block {
@@ -724,6 +716,10 @@ video {
   width: 11rem;
 }
 
+.w-5\/12 {
+  width: 41.666667%;
+}
+
 .w-6 {
   width: 1.5rem;
 }
@@ -750,22 +746,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-10 {
-  width: 2.5rem;
-}
-
-.w-10\/12 {
-  width: 83.333333%;
-}
-
-.w-5\/12 {
-  width: 41.666667%;
-}
-
-.w-4 {
-  width: 1rem;
 }
 
 .max-w-full {
@@ -804,10 +784,6 @@ video {
 
 .grid-rows-2 {
   grid-template-rows: repeat(2, minmax(0, 1fr));
-}
-
-.flex-row {
-  flex-direction: row;
 }
 
 .flex-col {
@@ -997,14 +973,14 @@ video {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-base {
@@ -1030,11 +1006,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .font-black {
@@ -1083,20 +1054,6 @@ video {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.first-letter\:flex::first-letter {
-  display: flex;
-}
-
-.first-letter\:px-8::first-letter {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.first-letter\:file\:px-8::file-selector-button::first-letter {
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .before\:absolute::before {
@@ -1220,52 +1177,24 @@ video {
     margin-bottom: 5rem;
   }
 
-  .sm\:mt-4 {
-    margin-top: 1rem;
-  }
-
   .sm\:mb-6 {
     margin-bottom: 1.5rem;
   }
 
-  .sm\:block {
-    display: block;
-  }
-
-  .sm\:flex {
-    display: flex;
+  .sm\:mt-4 {
+    margin-top: 1rem;
   }
 
   .sm\:w-4\/12 {
     width: 33.333333%;
   }
 
-  .sm\:w-11\/12 {
-    width: 91.666667%;
-  }
-
-  .sm\:w-3\/12 {
-    width: 25%;
-  }
-
-  .sm\:flex-row {
-    flex-direction: row;
-  }
-
-  .sm\:flex-col {
-    flex-direction: column;
+  .sm\:w-9\/12 {
+    width: 75%;
   }
 
   .sm\:flex-nowrap {
     flex-wrap: nowrap;
-  }
-
-  .sm\:justify-between {
-    justify-content: space-between;
-  }
-
-  .sm\:gap-8 {
-    gap: 2rem;
   }
 
   .sm\:px-8 {
@@ -1278,6 +1207,11 @@ video {
     padding-bottom: 0.5rem;
   }
 
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -1288,8 +1222,8 @@ video {
     line-height: 1.5rem;
   }
 
-  .sm\:text-xl {
-    font-size: 1.25rem;
+  .sm\:text-lg {
+    font-size: 1.125rem;
     line-height: 1.75rem;
   }
 
@@ -1298,19 +1232,9 @@ video {
     line-height: 1.25rem;
   }
 
-  .sm\:text-lg {
-    font-size: 1.125rem;
+  .sm\:text-xl {
+    font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .sm\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .first-letter\:sm\:text-3xl::first-letter {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 }
 
@@ -1339,6 +1263,11 @@ video {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -1473,10 +1402,6 @@ video {
 
   .xl\:w-3\/12 {
     width: 25%;
-  }
-
-  .xl\:w-4\/12 {
-    width: 33.333333%;
   }
 
   .xl\:gap-4 {
